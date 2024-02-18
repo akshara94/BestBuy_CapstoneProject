@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="Test_component.TC01_User_Signup"/>
+      <class name="Test_component.TC02_User_Login"/>
+      <class name="Test_component.TC04_HomePage"/>
+       <class name="Test_component.TC05_Validate_Belowlink"/>
+       <class name="Test_component.TC06_CartPage"/>
+     <!-- <class name="Test_component.TC03_ValidiateLinkBroken"/>--> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
